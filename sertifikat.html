@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>document</title>
+    <link rel="stylesheet" href="sertifikat.css">
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.3.4/jspdf.debug.js" ></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.3.4/jspdf.min.js" ></script>
+        <!--  -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
+    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
+    <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+
+    </head>
+<body>
+    <header id="header" class="fixed-top ">
+        <div class="container d-flex align-items-center justify-content-between">
+    
+          <h1 class="logo"><a href="index.html"><img style="position: relative; top: -7px; right: 5px;" src="assets/img/pngwing.com (10).png" alt="">Qualication<span>.</span></a></h1>
+    
+          <nav class="nav-menu d-none d-lg-block">
+            <ul>
+              <li class="active"><a href="index.html">Uy</a></li>
+              <li><a href="index.html#about">Biz Haqimizda</a></li>
+              <li><a href="#services">Xizmatlar</a></li>
+              <li><a href="#team">Jamoa</a></li>
+              <li class="drop-down"><a href="">Drop Down</a>
+                <ul>
+                  <li><a href="#">Drop Down 1</a></li>
+                  <li class="drop-down"><a href="#">Deep Drop Down</a>
+                    <ul>
+                      <li><a href="#">Deep Drop Down 1</a></li>
+                      <li><a href="#">Deep Drop Down 2</a></li>
+                      <li><a href="#">Deep Drop Down 3</a></li>
+                      <li><a href="#">Deep Drop Down 4</a></li>
+                      <li><a href="#">Deep Drop Down 5</a></li>
+                    </ul>
+                  </li>
+                  <li><a href="#">Drop Down 2</a></li>
+                  <li><a href="#">Drop Down 3</a></li>
+                  <li><a href="#">Drop Down 4</a></li>
+                </ul>
+              </li>
+              <li><a href="#contact">Aloqa</a></li>
+    
+            </ul>
+          </nav>
+          <a id="loginbtn" href="#" onclick="document.getElementById('login-form').style.display='block'" class="get-started-btn scrollto"><i style="vertical-align: middle; margin-right: 5px; font-size: 20px;" class="bi bi-person"></i>Kirish</a>
+    
+        </div>
+      </header>
+      <!-- End Header -->
+    <div id="alik">
+        <div class="yozuv">
+            <strong>SERTIFIKAT</strong>
+        </div>
+        <img src="./image/xalq2.jpg" alt="" class="xalq1">
+        <img src="./image/xalq1.jpg" class="xalq" alt="">
+        <img src="./image/orta.jpg" alt="" class="orta">
+        <div class="sarlavha">
+            <h2>O'zbekiston Respublikasi Xalq talim Vazirligi <br> o'qituvchi kadrlarni bilim darajasini tekshirish hamda malakasini oshirish</h2>
+        </div>
+        <div class="matn">
+            <p>O'qituvchi kadrlarni malakasini oshirish hamda bilim darajasini tekshirish maqsadida o'qituvchilar va o'quvchilardan olingan testda 100% baholash tizimida <b>76%</b> natija ko'rsatib faol ishtirok etgani uchun <br>  <b>Temirov Elyorbek</b> <br> Xalq talim bo'limi tomonidan ushbu sertifikat bilan taqdirlanadi.  </p>
+        </div>
+        <div class="sana">
+            <p class="update_date">09.02.2022</p>
+            <hr class="her">
+            <p>sana</p>
+        </div>
+        <img src="./image/imzo.jpg" class="imzocha" alt="">
+        <div class="imzo">
+            <hr class="her">
+            <p>imzo</p>
+        </div>
+        <img src="./image/palasa.jpg" alt="" class="yol">
+    </div>
+
+<button onclick="PrintElem()" class="btn_sertificat">Yuklab olish</button>
+<!--  -->
+ <!-- ======= Footer ======= -->
+ <footer id="footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6">
+            <div class="footer-info">
+              <h3 style="color: white;"><img style="width: 5vw; position: absolute; left: -2em; top: -15px;" src="assets/img/pngwing.com (10).png" alt="">Qualication<span>.</span></a></h3>
+              <p>
+                A108 Adam ko'chasi, Nyu-York, NY 535022<br><br>
+                <strong>Telefon:</strong> +1 5589 55488 55<br>
+                <strong>Elektron pochta:</strong> info@example.com<br>
+              </p>
+              <div class="social-links mt-3">
+                <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+                <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+                <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+                <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
+                <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-md-6 footer-links">
+            <h4>Foydali Havolalar</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Uy</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Biz Haqimizda</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Xizmatlar</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Jamoa</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Maxfiylik Siyosati</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Bizning xizmatimiz</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Web Design</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Web Development</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Product Management</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Marketing</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Graphic Design</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-4 col-md-6 footer-newsletter">
+            <h4>Bizning xabarnomamiz</h4>
+            <p style="color: white;">Biroq, men o'qigan narsalarning hech birini o'qimayman, lekin ko'p o'qishim bizning katta aybimizdir</p>
+            <form action="" method="post">
+              <input type="email" name="email"><input type="submit" value="Obuna Bo'ling">
+            </form>
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+<div class="qora">
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright Qualication<span>.</span></a> All Rights Reserved
+      </div>
+      <div class="credits">
+        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+      </div>
+    </div>
+</div>
+  </footer><!-- End Footer -->
+<!--  -->
+<script type="text/javascript">
+    function PrintElem() {
+    Popup(document.getElementById('alik').innerHTML);
+}
+function Popup(data) {
+    var myWindow = window.open('', 'invoice', 'height=auto,width=100%');
+    myWindow.document.write('<html><head>');
+    myWindow.document.write('<link rel="stylesheet" href="/vendor/back/bower_components/bootstrap/dist/css/bootstrap.min.css" type="text/css" />');
+    myWindow.document.write('<link rel="stylesheet" href="/vendor/back/dist/css/AdminLTE.min.css">');
+    myWindow.document.write('<link rel="stylesheet" href="/vendor/back/dist/css/alt/AdminLTE-without-plugins.css">');
+    myWindow.document.write('<link rel="stylesheet" href="sertifikat.css">');
+
+    myWindow.document.write('</head><body>');
+    myWindow.document.write(data);
+    myWindow.document.write('</body></html>');
+    myWindow.document.close();
+
+    myWindow.onload=function(){
+        myWindow.focus();
+        myWindow.print();
+        myWindow.close();
+        location.reload();
+
+    };
+}
+const d = new Date();
+const p=d.getMonth() + 1;
+document.getElementsByClassName("update_date")[0].innerHTML = d.getDate()+"."+p+ "."+d.getFullYear();
+const ball=46,name="Suhrob Hojiyev";
+document.querySelectorAll('b')[0].innerHTML=ball+"%";
+document.querySelectorAll('b')[1].innerHTML=name;
+</script>
+</body>
+</html>
